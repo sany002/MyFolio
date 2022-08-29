@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!--  main menu part start  -->
+
+  <nav class="navbar navbar-expand-md customNav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo_here">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">MY work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_me">contact ME</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main menu part end -->
+
+  <!--  banner part start  -->
+
+  <section id="banner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background: url(images/banner.jpg);">
+          <div class="carousel-caption ">
+            <h1>First slide label</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: url(images/banner.jpg);">
+          <div class="carousel-caption ">
+            <h1>Second slide label</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: url(images/banner.jpg);">
+          <div class="carousel-caption">
+            <h1>Third slide label</h1>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--  banner part end  -->
+
+  <!--  about part start -->
+
+  <section id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xxl-8">
+          <div class="section_heading text-center">
+            <h2>About Me</h2>
+            <img src="images/shape.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, <span>quis nostrud exercitation ullamco</span> laboris nisi
+              ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center  text-center">
+        <div class="col-lg-3 col-md-6 about_border">
+          <div class="about_items">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            <h3>Title goes here</h3>
+            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 about_border">
+          <div class="about_items">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <h3>Title goes here</h3>
+            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 about_border">
+          <div class="about_items">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <h3>Title goes here</h3>
+            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 about_border">
+          <div class="about_items">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+            <h3>Title goes here</h3>
+            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  about part end  -->
+
+  <!-- service part start  -->
+
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section_heading">
+            <h2>services</h2>
+            <img src="images/shape.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="service_items">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <h3>Title goes here</h3>
+                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="service_items">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <h3>Title goes here</h3>
+                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="service_items">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <h3>Title goes here</h3>
+                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="service_items">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <h3>Title goes here</h3>
+                <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  service part end -->
+
+  <!--  work part start  -->
+
+  <section id="work">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section_heading text-center">
+            <h2>My Work</h2>
+            <img src="images/shape.png" alt="shape">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="main_work">
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="work_item">
+        <img src="images/work1.jpg" alt="">
+        <div class="overly">
+          <h3>Title goes here</h3>
+          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidiet dolorerserss eerhfre mag.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  work part end  -->
+
+
+  <!--  contact part start  -->
+
+  <section id="contact_me">
+    <div class="container">
+      <div class="row justify-content-center py-5">
+        <div class="col-lg-8">
+          <div class="section_heading text-center">
+            <h2>CONTACT ME</h2>
+            <img src="images/shape.png" alt="shape">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--  contact part end -->
+
+  <!--  contact form start -->
+
+  <section id="contact_form">
+    <div class="container">
+      <form action="">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <input type="text" placeholder="NAME" class="form-control">
+          </div>
+          <div class="col-lg-8">
+            <input type="text" placeholder="EMAIL" class="form-control">
+          </div>
+          <div class="col-lg-10">
+            <label for="">Message</label>
+            <textarea name="" id="" class="form-control"></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+      </div>
+    </form>
+    </div>
+  </section>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

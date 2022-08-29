@@ -1,0 +1,99 @@
+@media(min-width:991px) and (max-width:1199.98px){
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media(min-width:768px) and (max-width:991.98px){
+
+#myNav ul li a{
+    padding: 21px 16px;
+}
+
+#banner .carousel-item{
+    height: 500px;
+}
+
+#banner .carousel-caption h1{
+    font-size: 40px;
+    letter-spacing: 11px;
+}
+
+
+}
+
+
+@media(min-width:576px) and (max-width:767.98px){
+
+    #banner .carousel-item {
+        height: 400PX;
+    }
+
+    #banner .carousel-caption h1{
+        font-size: 36px;
+        letter-spacing: 10px;
+    }
+
+
+}
+
+
+@media(max-width:767.98px){
+
+    .customNav {
+        padding: 10px 0;
+    }
+
+    #myNav ul li a {
+        padding: 14px 1px;
+    }
+
+    #banner .carousel-item .carousel-caption h1 {
+        left: 0;
+        right: 0;
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    
+    .section_heading p span{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .about_border{
+        border-right: none;
+    }
+
+    .about_items{
+        padding: 40px 0;
+        border-bottom: 1px solid rgb(0, 104, 52);
+    }
+
+
+}
+
+
+@media (max-width:575.98px){
+
+    #banner .carousel-item {
+        height: 300px;
+
+}
+
+#banner .carousel-caption h1 {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+
+
+
+}
